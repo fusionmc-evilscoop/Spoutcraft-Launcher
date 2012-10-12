@@ -79,7 +79,7 @@ public class Main {
 			params.addAll(Arrays.asList(args_temp));
 
 			if (PlatformUtils.getPlatform() == PlatformUtils.OS.macos) {
-				params.add("-Xdock:name=\"Technic Launcher\"");
+				params.add("-Xdock:name=\"FusionMC Launcher\"");
 
 				try {
 					File icon = new File(PlatformUtils.getWorkingDirectory(), "launcher_icon.icns");
